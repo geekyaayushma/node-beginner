@@ -7,6 +7,4 @@ http
     res.write("The date and time are currently: " + time.myDateTime());
     res.end();
   })
-  .listen(8080, () => {
-    console.log("Server running at http://localhost:8080/");
-  });
+  .listen(8082, () => console.log("Server running at http://localhost:8082/"));
