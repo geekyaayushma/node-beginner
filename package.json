@@ -1,0 +1,16 @@
+{
+  "name": "node-beginner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo_uppercase.js",
+  "type": "module",
+  "scripts": {
+    "start": "node demo_uppercase.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "upper-case": "^3.0.0"
+  }
+}
