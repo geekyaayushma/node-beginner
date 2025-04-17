@@ -1,10 +1,10 @@
 import http from "http";
-import formidable from "formidable";
+import { IncomingForm } from "formidable";
 
 http
   .createServer(function (req, res) {
     if (req.url == "/fileupload") {
-      var form = new formidable.IncomingForm();
+      const form = new IncomingForm();
       form.parse(req, function (err, fields, files) {
         res.write("File uploaded");
         res.end();
@@ -20,4 +20,4 @@ http
       return res.end();
     }
   })
-  .listen(8080);
+  .listen(8081);
