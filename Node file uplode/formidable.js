@@ -1,5 +1,5 @@
-var http = require("http");
-var formidable = require("formidable");
+import http from "http";
+import formidable from "formidable";
 
 http
   .createServer(function (req, res) {
